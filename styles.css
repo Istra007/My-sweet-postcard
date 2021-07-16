@@ -1,0 +1,72 @@
+body {
+	background: black;
+}
+
+/*
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+*/
+
+.postcard {
+	background-color: rgb(210, 227, 250);
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	padding-left: 10px;
+	margin-top: 0px;
+	padding-top: 3px;
+}
+.postcard-header h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-right: 155px;
+
+	font-family: fantasy;
+	font-style: italic;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-body {
+	display: flex;
+}
+.postcard-footer {
+	text-align: center;
+	padding-top: 20px;
+}
+.postcard-footer button {
+	background-color: rgb(85, 169, 247);
+	height: 26px;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	border-radius: 10px;
+}
+.body-right input {
+	border-bottom: 1 px solid gray;
+	font-family: fantasy;
+	font-style: italic;
+	font-size: 15px;
+	padding-left: 0px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+	border-bottom-width: 1px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	background-color: rgb(210, 227, 250);
+	margin-right: 10px;
+}
+.body-left {
+	padding-left: 10px;
+	font-family: fantasy;
+	font-style: italic;
+	word-spacing: 0px;
+	padding-right: 20px;
+}
